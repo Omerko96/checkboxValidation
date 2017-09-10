@@ -1,0 +1,58 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+}
+/* Styling Main Section */
+h3{
+	font-size: 30px;
+	color: #1affb2;
+	text-transform: uppercase;
+	text-decoration: underline;
+	padding-bottom: 50px;
+}
+#main_section{
+	margin: 100px 0px;
+}
+.checkbox-group{
+	padding: 20px;
+	border: 2px solid #00b377;
+	border-radius: 5px;
+	margin-bottom: 30px;
+}
+#submit{
+	margin-top: 30px;
+}
+#results{
+	padding: 20px;
+	color: #000000;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 20px;
+	text-align: center;
+}
+
+/* Media Queries */
+@media screen
+and (min-width: 320px)
+and (max-width: 480px){
+	h3{
+		font-size: 26px;
+		padding-bottom: 10px;
+	}
+	#main_section{
+		margin: 20px 0px;
+	}
+}
+
+@media screen
+and (min-width: 481px)
+and (max-width: 767px){
+	h3{
+		font-size: 26px;
+		padding-bottom: 10px;
+	}
+	#main_section{
+		margin: 20px 0px;
+	}
+}
